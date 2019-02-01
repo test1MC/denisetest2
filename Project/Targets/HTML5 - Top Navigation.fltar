@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  MoveOutputContentToRoot="true"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  ResultsPerPage="10"
+  ConditionTagExpression="include[General.1 or General.2 or General.3 or General.WebOnly] exclude[General.CHMonly or General.Exclude] "
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterStylesheetOverride="false"
+  DisableAutoSync="true"
+  DefaultUrl="/Content/Welcome/welcome-about-memoq.html"
+  IncludeGlossarySearchResults="false"
+  InsertMOTW="false"
+  UseLocalBuildSettings="true"
+  TabletBreakpoint="1023"
+  PreCompileScaledImages="false"
+  UseEmptyAltText="false"
+  UseCustomTopicFileExtension="false"
+  CustomTopicFileExtension="aspx"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  MasterToc="/Project/TOCs/Test.fltoc"
+  SearchFilterSet="/Project/Advanced/SFS_Test.flsfs"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  ExcludeUnreferencedContent="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/test1.fldes"
+      Publish="true" />
+  </Destinations>
+  <Glossaries />
+</CatapultTarget>

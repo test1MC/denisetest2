@@ -1,0 +1,360 @@
+/*<meta />*/
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed closer to the top of this stylesheet.
+
+===========================================================================================================================================================*/
+
+/*==Topic General Styles==*/
+
+body
+{
+	color: #404040;
+	line-height: 1.7em;
+	background-color: #fff;
+	font-family: Arial;
+}
+
+h2
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+h4
+{
+	
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+{
+	max-width: 100%;
+}
+
+img.thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #7469b9;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #000000;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #7469b9;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #3B3751;
+}
+
+MadCap|dropDown	/*Change the "mc-open-image" and "mc-closed-image" properties to change the icons used in drop-downs*/
+{
+	mc-open-image: url('../Images/Assets/Icons/Arrows/arrow-down-gray.png');
+	mc-closed-image: url('../Images/Assets/Icons/Arrows/arrow-right-gray.png');
+}
+
+/*==Master Page Topic Layout==*/
+
+nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+	min-height: 50px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+div.search-container
+{
+	padding-bottom: 20px;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+div.side-content	/*This is the div for the side-content containing "Search Tips" and the "Contact Support" button*/
+{
+	padding-top: 10px;
+}
+
+MadCap|dropDownHead.side-content	/*Font properties for the "Search Tips" drop-down head */
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+div.cta	/*Call to action button/Contact Support button*/
+{
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	padding: 2px 0px;
+	border: 1px solid #7469b9;
+	width: 162px;
+	color: #7469b9;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	margin-top: 20px;
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties will apply*/
+{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.topic-layout > div:nth-child(1)	/*Menu Proxy container*/
+{
+	width: 25%;
+	margin-left: 0%;
+	border-right: 1px solid #d3d3d3;
+}
+
+div.topic-layout > div:nth-child(2)
+{
+	width: 73%;
+	margin-left: 2%;
+}
+
+MadCap|glossaryTerm
+{
+	font-style: italic;
+	color: #000000;
+}
+
+h1
+{
+	font-size: 1, 5em;
+	font-weight: normal;
+	color: #7469b9;
+	margin: 0;
+	margin-bottom: 8px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	font-family: Arial;
+}
+
+span
+{
+	font-family: Arial;
+}
+
+ol ol
+{
+	list-style: inherit;
+	list-style-image: inherit;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media tablet
+{
+	div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+@media mobile
+{
+	div.top-bar
+	{
+		min-height: 0;
+	}
+
+	div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+MadCap|dropDownBody
+{
+	border: solid 1px #3B3751;
+}
+
+MadCap|dropDownHead
+{
+	font-weight: bold;
+	color: #3B3751;
+	border-bottom-color: #3B3751;
+	border-color: #3B3751;
+	border-width: 1;
+}
+
+span.f_CodeExample
+{
+	font: Courier New;
+	font-family: monospace;
+}
+
+span.f_Command
+{
+	font-weight: bold;
+	color: #000000;
+}
+
+span.f_ImageCaption
+{
+	font-weight: bold;
+	font-size: 80%;
+}
+
+p.p_Tip
+{
+	margin-top: 7pt;
+	margin-left: 7pt;
+	background-color: #f0f0f0;
+	border: 1px solid #64829c;
+	padding: 4pt 5pt 6pt 10pt;
+	border-bottom-color: transparent;
+	border-color: #64829c;
+	border-width: 1px;
+}
+
+p.p_Warning
+{
+	margin-top: 7pt;
+	margin-left: 7pt;
+	background-color: #FFe8aa;
+	border: 1px solid #64829c;
+	padding: 4pt 5pt 6pt 10pt;
+	border-bottom-color: transparent;
+	border-color: #64829c;
+	border-width: 1px;
+}
+

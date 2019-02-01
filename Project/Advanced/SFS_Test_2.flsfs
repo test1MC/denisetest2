@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="Snippets"
+    Order="0"
+    Concepts="1"></SearchFilter>
+  <SearchFilter
+    Name="Tables"
+    Comment=""
+    Order="1"
+    Concepts="2" />
+</CatapultSearchFilterSet>

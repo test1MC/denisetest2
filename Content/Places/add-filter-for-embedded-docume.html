@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3200" MadCap:lastWidth="1343">
+    <head><title>Add filter for embedded documents</title>
+    </head>
+    <body>
+        <h1>Add filter for embedded documents</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>Microsoft Office files can include embedded objects. An embedded object is practically another document within the document. The embedded object can be a different document type. </p>
+            <p>When memoQ imports a document, it can import the embedded objects from <a href="..\Places\microsoft-word-2007-and-higher.html">DOCX</a>, <a href="..\Places\microsoft-excel-2007-and-highe.html">XLSX</a>, and <a href="..\Places\microsoft-powerpoint-2007-pptx.html">PPTX</a> files. These objects will appear in the project as separate documents.</p>
+            <p>When you import a document, memoQ can simply import all embedded objects with the default settings. You can choose this in the <span class="f_Command"><a href="..\Places\document-import-options.html">Document import options</a></span> window.</p>
+            <p>To fine-tune the import of embedded objects, you need to create a composite filter configuration. You need to prepare this in the <span class="f_Command"><a href="..\Places\resource-console.html">Resource console</a></span>: you can't do it while you import the document.</p>
+            <p>memoQ&#160;supports the import of embedded objects from ZIP&#160;packages and MS Office files (versions 2007 and newer:&#160;DOCX, XLSX, PPTX). The embedded files themselves can be of any format which is supported both by memoQ and MS Office (this includes, besides MS Office formats, HTML, XML and PDF, and image formats).</p>
+            <h2>How to get here</h2>
+            <p>Open the <span class="f_Command"><a href="..\Places\resource-console.html">Resource console</a></span>, and choose <span class="f_Command">Filter configurations</span>. Below the list of filter configurations, click <span class="f_Command">Create filter for embedded documents</span>.</p>
+            <p>
+                <img alt="" src="../Images/d-h/filterembeddedobjects.png" />
+            </p>
+            <p><span class="f_ImageCaption">Office files:&#160;memoQ&#160;can import embedded images and other Office files</span>
+            </p>
+            <p>
+                <img alt="" src="../Images/d-h/filterembeddedobjects-zip.png" />
+            </p>
+            <p><span class="f_ImageCaption">ZIP&#160;files:&#160;memoQ&#160;can import any file format it can handle</span>
+            </p>
+            <h2>What can you do?</h2>
+            <p>Name the filter: Type a name in the <span class="f_Command">Name</span> box, and a longer description in the <span class="f_Command">Description</span> box. You can skip the description.</p>
+            <p>Choose a main file type and a configuration: </p>
+            <ul>
+                <li>Choose a file type in the <span class="f_Command">Filter</span> drop-down box. You can choose from Word, Excel, PowerPoint or ZIP.</li>
+                <li>Choose a configuration: You can stay with the default configuration. But if you have custom filter configurations for the main file, you can choose from them, too.</li>
+                <li>Choose filters for the embedded documents: memoQ can import embedded objects that are listed under <span class="f_Command">Embedded object filters</span>. For each type of embedded objects, there is a drop-down box. You can choose a configuration there. It can be the default configuration, or you can choose a custom filter configuration for each object type - if there is one. </li>
+            </ul>
+            <p>Or, you can tell memoQ to <i>not</i> import objects of that type: In that case, choose [do not import] from the drop-down box for the object type.</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Import documents using the composite filter</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>After the composite filter is saved, you can use it to import documents.</p>
+                    <ol>
+                        <li>In the <span class="f_Command">Create new filter configuration</span> window: Click <span class="f_Command">OK</span>. In the <span class="f_Command"><a href="..\Places\resource-console.html">Resource console</a></span> window, click <span class="f_Command">Close</span>.</li>
+                        <li>Open a project. In <span class="f_Command"><a href="..\Places\project-home.html">Project home</a></span>, choose <span class="f_Command"><a href="..\Places\project-home-translations-tpro.html">Translations</a></span>.</li>
+                        <li>In the translations list, right-click the empty area. In the menu, choose <span class="f_Command">Import with Options</span>.</li>
+                        <li>In the <span class="f_Command"><a href="..\Places\document-import-options.html">Document import options</a></span> window, click <span class="f_Command">Change filter and configuration</span> or <span class="f_Command">Change filter and configuration for all</span>. The <span class="f_Command"><a href="..\Places\document-import-settings.html">Document import settings</a></span> window appears.</li>
+                        <li>In the <span class="f_Command">Filter</span> drop-down box, choose <span class="f_Command">Composite filter</span>. In the <span class="f_Command">Filter configuration</span> drop-down box, choose the new filter configuration:<p><img alt="" src="../Images/0-c/compositefiltersettings.png" /></p></li>
+                        <li>To change the settings of the main filter: Click the name of the main filter first.</li>
+                        <li>To change the settings of a filter for embedded objects: Choose an embedded object type from the <span class="f_Command">Embedded objects</span> drop-down box. Then click <span class="f_Command">Embedded objects</span>.</li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h2>When you finish</h2>
+            <p>Click <b>OK</b> to create the composite filter. </p>
+            <p>Click <b>Cancel</b> to leave the <span class="f_Command">Create new filter configuration</span> window without creating a filter configuration.</p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

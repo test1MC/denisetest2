@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <MadCap:changeData>
+            <MadCap:RemoveChange MadCap:userName="dVega" MadCap:initials="DV" MadCap:id="4" MadCap:timestamp="2018-10-01T07:29:15.7586111-07:00" />
+            <MadCap:AttributesChange MadCap:userName="dVega" MadCap:initials="DV" MadCap:id="7" MadCap:timestamp="2018-10-02T13:32:34.7419369-07:00" MadCap:attribute="class" />
+        </MadCap:changeData><title>Add/edit group</title>
+    </head>
+    <body>
+        <h1>Add/edit group</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>You can add groups to a memoQ server directly from memoQWeb, without opening memoQ. The memoQWeb module must be installed on memoQ server.</p>
+            <h2>How to get here</h2>
+            <ol>
+                <li>Open memoQWeb in a Web browser. Log in as an administrator or project manager.</li>
+                <li>Click the <span class="f_Command"><a href="mqw-admin.html">Admin</a></span> tab, then click the <span class="f_Command"><a href="mqw-groups.html">Groups</a></span> tab below it.</li>
+                <li>The <span class="f_Command"><a href="mqw-groups.html">Groups</a></span> page appears.</li>
+            </ol>
+            <ul>
+                <li><b>To add a new group:</b> Click the <MadCap:snippetText src="../Resources/Snippets/UI_AddGroups.flsnp" MadCap:changes="7" class="ui" /> icon at the top of the group list.</li>
+                <li><b>To edit an existing group:</b> In the <MadCap:snippetText src="../Resources/Snippets/UI_Ops.flsnp" class="ui" /> column, click the <MadCap:snippetText src="../Resources/Snippets/UI_Edit.flsnp" class="ui" /> <img alt="" src="../Images/i-l/icon_edit.png" /> icon for the group.<p><img alt="" src="../Images/_mqw/admin-edit-group.png" /></p></li>
+            </ul>
+            <p>The <span class="f_Command">Add group</span> or the <span class="f_Command">Edit group</span> window appears. The two are similar: <MadCap:snippetText src="../Resources/Snippets/UI_AddGroups.flsnp" /><span class="f_Command" MadCap:changes="4">Add group</span> has only the first two sections of <span class="f_Command">Edit group</span>.</p>
+            <h2>What can you do?</h2>
+            <p><b>Add or edit a group</b>
+            </p>
+            <p>Enter or change the data on the page.</p>
+            <p><span class="f_Command">Group properties</span>
+            </p>
+            <ul>
+                <li><span class="f_Command">Name</span>: Type the name of the group here. Be careful: you cannot change the name of the group after it is created.</li>
+                <li><span class="f_Command">Description</span>: Type a description for the group here.</li>
+            </ul>
+            <p><span class="f_Command">Settings</span>
+            </p>
+            <ul>
+                <li><span class="f_Command">Group disabled</span>: To disable the group, check this check box. While the group is disabled, permissions assigned to the group have no effect.</li>
+                <li><span class="f_Command">Group represents a subvendor</span>: To make the group a subvendor group, check this check box. Members can manage tasks assigned to the group. Users you add become managers of this group. Managers can add new users to this group, and those are not visible to administrators or project managers of the memoQ server. Members added to this group are removed from any other groups. The check box is unchecked by default.</li>
+                <li><span class="f_Command">Members excluded from discussions</span>: To exclude members of the group from discussions (e.g. for security and confidentiality reasons), check this check box. Members cannot see discussions, regardless of their memberships in other groups.</li>
+                <li><span class="f_Command">Members can start projects</span>: To make a group a light-weight PM group - that is, give them a part of PM permissions -, check this check box. To allow members to create online projects freely, choose <span class="f_Command">Any online project</span>. To allow them only template-based project creation, choose <span class="f_Command">From templates only</span>.<p class="p_Tip"><b>Note:</b> The <span class="f_Command">Members can start projects</span> check box is inactive for built-in groups such as <span class="f_Command">Terminologists</span>, <span class="f_Command">Internal translators</span> or <span class="f_Command">Publishers</span>. Only custom groups can have this permission. Checking the <span class="f_Command">Group represents subvendor</span> check box automatically clears and disables the <span class="f_Command">Members can start projects</span> check box.</p><p class="p_Tip"><b>Note:</b> Light-weight PM groups can access the online PM windows in online projects and the Web PM in memoQWeb. A user can be a member of several light-weight PM groups.</p></li>
+            </ul>
+            <p class="p_Tip"><b>Note:</b> The <span class="f_Command">Project managers</span> and <span class="f_Command">Administrators</span> groups are more powerful and can do what light-weight PM groups cannot.
+            </p>
+            <p class="p_Tip"><b>Note:</b> When you check <span class="f_Command">Members can start projects</span>, the <span class="f_Command">Assigned groups</span> section appears with the list of other custom groups on the server. Check the check box next to a group to make its members available on projects started by the light-weight PM group. Built-in groups are not listed here, but subvendor groups are.
+            </p>
+            <p><span class="f_Command">Members</span>
+            </p>
+            <p>The table lists the users added to the group.</p>
+            <p><b>To add users to the group:</b> click the <span class="f_Command">Add members</span> button. The <span class="f_Command">Select users</span> window appears. Check the check boxes for users you want to add to the group and cilck <span class="f_Command">OK</span>.</p>
+            <p><b>To remove a member from the group:</b> In the <span class="f_Command">Ops</span> column, click the member's <span class="f_Command">Delete</span> button.</p>
+            <p>&#160;</p>
+            <p><span class="f_Command">Language pairs</span>
+            </p>
+            <p>You can set up the language pairs that the group works with.</p>
+            <ul>
+                <li><b>To add a language pair:</b> choose <span class="f_Command">Source language</span> and <span class="f_Command">Target language</span> from the dropdowns below the table. In the <span class="f_Command">Ops</span> column, click <span class="f_Command">Add</span> <img alt="" src="../Images/_mqw/icon_add.png" />.</li>
+                <li><b>To remove a language pair:</b> In the <span class="f_Command">Ops</span> column, click <span class="f_Command">Delete</span> <img alt="" src="../Images/i-l/icon_delete.png" /> next to the language pair.<p>&#160;</p></li>
+            </ul>
+            <p><span class="f_Command">Assigned groups</span>
+            </p>
+            <p>This section appears only if group members can start projects - that is, the group is a lightweight PM group. Group members can create users, and they can add users to one or more of the assigned groups.</p>
+            <h2>When you finish</h2>
+            <p>To save your changes, click <span class="f_Command">Save</span>. To discard your changes and return to the <span class="f_Command"><a href="mqw-groups.html">Groups</a></span> page, click <span class="f_Command">Cancel</span>.</p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

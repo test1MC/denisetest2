@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Double context matches</title>
+    </head>
+    <body>
+        <h1>Double context matches</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>memoQ offers context (101%) matches for:</p>
+            <ul>
+                <li>the text flow: when the previous and the following segment are the same for the surrounding source segment, stored in the TM entry.</li>
+                <li>for ID-based context: when an associated string ID (e.g. a resource identifier in software code) is the same in the current document as in the TM entry.<p>Both contexts allow the same segment to be translated in multiple different ways.</p></li>
+            </ul>
+            <p>Double-context matches are 102% (or XLT) matches. You get a double-context match when the ID-based context <em>and</em> the text-flow context are both identical. </p>
+            <p>You get double context matches when you have running text, which can be one or more paragraphs long, and every text chunk also has an identifier coming from a content management system (CMS) or a structured document. In these cases, the text flow and the ID-based context can both be identical, and that is when you get a double context match.</p>
+            <p class="p_Tip"><b>101% matches if only one of the contexts match:</b> If the translation memory can use double context, but only one type of context is identical (for example, the text flow is the same but the IDs are different), memoQ will return a single-context (101%) match. If both contexts are different, and only the segment text is identical to the text in the translation memory, the match rate will be 100% (a regular exact match).
+            </p>
+            <p class="p_Tip"><b>Missing contexts count as a match:</b> If one of the contexts are missing from both the TM and from the source text, that counts as a match. For example, if a TM match has no context ID and the source segment has no context ID either, <em>but</em> the text flow is the same, that will be a 102% match – if the translation memory was created with the double context setting.
+            </p>
+            <p>memoQ's translation memories store the ID-based context <em>and</em> the text flow context for every segment – if they were created with the double context setting.</p>
+            <p class="p_Tip"><b>In structured documents (XML, Excel etc.), the text flow context is used within the structural units only:</b> memoQ checks the text-flow context - the previous and the following segment - only inside one "structural unit". For example, if you have an Excel cell with several sentences, and a cell has a context ID assigned to it, the first segment from that cell will have an empty "previous segment" context, and the last cell will have an empty "next segment" context - regardless of any text in the neighboring cells. The neighboring cells - which have different IDs - will probably contain something entirely different and unrelated. They are not good sources of context. An XML element with a context ID is very similar: the next XML element with a different ID will probably be entirely unrelated.
+            </p>
+            <p>Double-context matches are ranked higher than context (101%) matches. However, there is no extra match range. memoQ will count double-context matches as XLT matches, and the <span class="f_Command"><a href="..\Places\statistics.html">Statistics</a></span> window will display them in the <b>X-translated</b> row. You also get the XLT match rate when you <a href="..\Places\x-translate.html">X-translate</a> your document. In <a href="..\Places\pre-translate-and-statistics.html">pre-translated</a> segments, the <a href="..\Places\the-grid.html">translation editor</a> shows double-context matches as XLT (102%) matches.</p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

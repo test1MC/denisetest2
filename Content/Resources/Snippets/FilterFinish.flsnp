@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To confirm the settings, and return to the <span class="f_Command"><a href="../../Places/document-import-options.html">Document import options</a></span> window: Click <span class="f_Command">OK</span>.</p>
+        <p>To return the <span class="f_Command"><a href="../../Places/document-import-options.html">Document import options</a></span> window, and not change the filter settings: Click <span class="f_Command">Cancel</span>.</p>
+        <p>If this is a cascading filter, you can change the settings of another filter in the chain: Click the name of the filter at the top of the window.</p>
+        <p class="p_Tip">In the <span class="f_Command"><a href="../../Places/document-import-options.html">Document import options</a></span> window: Click <span class="f_Command">OK</span> again to start importing the documents.
+                        </p>
+    </body>
+</html>

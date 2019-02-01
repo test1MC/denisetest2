@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3821" MadCap:lastWidth="971">
+    <head><title>Add/edit user</title>
+    </head>
+    <body>
+        <h1>Add/edit user</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+                        <p>You can add users to a memoQ server directly from memoQWeb, without opening memoQ. The memoQWeb module must be installed on memoQ server.</p>
+                        <h2>How to get here</h2>
+                        <ol>
+                            <li>Open memoQWeb in a Web browser. Log in as an administrator or a project manager.</li>
+                            <li>Click the <span class="f_Command"><a href="mqw-admin.html">Admin</a></span> tab, then click the <span class="f_Command"><a href="mqw-users.html">Users</a></span> tab below it.</li>
+                            <li>The <span class="f_Command"><a href="mqw-users.html">Users</a></span> page appears.</li>
+                        </ol>
+                        <ul>
+                            <li><b>To add a new user:</b> Click the <span class="f_Command">Add users</span> icon at the top of the user list.</li>
+                            <li><b>To edit an existing user:</b> In the <span class="f_Command">Ops</span> column, click the <span class="f_Command">Edit</span> <img alt="" src="../Images/i-l/icon_edit.png" /> icon for the user. Or: right-click the user name, and choose <span class="f_Command">Edit</span>.<p><img alt="" src="../Images/_mqw/admin-add-user.png" /></p></li>
+                        </ul>
+                        <p>The <span class="f_Command">Add users</span> or the <span class="f_Command">Edit user</span> window appears. The two are almost the same. There is one small difference between them:</p>
+                        <p>
+                            <img alt="" src="../Images/_mqw/admin-add-edit-user-diff.png" />
+                        </p>
+                        <h2>What can you do?</h2>
+                        <p><b>Add or edit a user</b>
+                        </p>
+                        <p>By default, users set their passwords for themselves. New users will receive an email with a link to memoQWeb's password form.</p>
+                        <p><b>To set up the password for the new user:</b> Clear the <span class="f_Command">User will set their own password</span> check box. The <span class="f_Command">Password</span> and <span class="f_Command">Repeat password</span> boxes appear. Fill them in.</p>
+                        <p>&#160;</p>
+                        <p><span class="f_Command">User properties</span>
+                        </p>
+                        <p>In this section, you can enter or change personal details:</p>
+                        <ul>
+                            <li><span class="f_Command">User name</span>: Enter the user name with which this user signs in to the server.</li>
+                            <li><span class="f_Command">Password</span>: Enter or change the password with which this user signs in to the server. The password:</li>
+                            <li>must have at least 12 characters,</li>
+                            <li>must not start or end with whitespace characters,</li>
+                            <li>must not contain the user name, and</li>
+                            <li>must have at least one uppercase letter, one lowercase letter, one digit, and one other symbol.</li>
+                            <li><span class="f_Command">Repeat password</span>: Retype the password to avoid typos. This field must be the exactly same as the <span class="f_Command">Password</span> field.</li>
+                            <li><span class="f_Command">Full name</span>: Enter or change the user's real-life name. It is for information purposes only.</li>
+                            <li><span class="f_Command">Address</span>: Enter or change the user's postal address. It is for information purposes only.</li>
+                            <li><span class="f_Command">Email</span>: Enter or change the user's email. memoQWeb sends email notifications to this address.</li>
+                            <li><span class="f_Command">Phone number</span>: Enter or change the user's office phone number. It is for information purposes only.</li>
+                            <li><span class="f_Command">Mobile phone number</span>: Enter or change the user's mobile (cell phone) number. It is for information purposes only.<p class="p_Tip"><b>User name cannot be changed:</b> When you edit a user, you cannot change their user name.</p><p class="p_Tip"><b>memoQ validates your entries:</b> If you enter incorrect details (e.g. the email is not well-formed, or the <span class="f_Command">Password</span> and <span class="f_Command">Repeat password</span> fields do not match), a warning sign appears next to the incorrect field.</p></li>
+                        </ul>
+                        <p>&#160;</p>
+                        <p><span class="f_Command">Settings</span>
+                        </p>
+                        <ul>
+                            <li><span class="f_Command">Origin</span>: </li>
+                            <li><span class="f_Command">Local</span>: the user is a native memoQ user or a synchronized Windows domain account. In the latter case, <span class="f_Command">Origin</span> shows e.g. "SAM:TRANS&#8209;SRV".</li>
+                            <li>If the origin is not <span class="f_Command">Local</span>, the <span class="f_Command">User name</span> field shows the origin, e.g. "TRANS-SRV\MaxRob".</li>
+                            <li><span class="f_Command">Package workflow</span>: You can allow the user to use a package-based workflow in online projects. Choose from:</li>
+                            <li><span class="f_Command">online (no packages)</span>: The user can check out online projects, but cannot download packages.</li>
+                            <li><span class="f_Command">packages</span>: The user can download packages, but cannot check out online projects.</li>
+                            <li><span class="f_Command">both</span>: The user can either download the package or check out the project.</li>
+                            <li><span class="f_Command">User can edit information in memoQWeb</span>: The user can edit their full name, email, address, phone number, mobile phone, and password on their <span class="f_Command">Profile</span> page.</li>
+                            <li><span class="f_Command">User can edit language properties in memoQWeb</span>: The user can edit their language pairs on their <span class="f_Command">Profile</span> page.<p>Both options are disabled by default. You need to be an admin or a project manager to change them.</p></li>
+                        </ul>
+                        <p>&#160;</p>
+                        <p><span class="f_Command">Group membership</span>
+                        </p>
+                        <p class="p_Tip"><b>Note:</b> If you are a subvendor group manager, you cannot modify the group membership of a user: the <span class="f_Command">Group membership</span> section is disabled.
+                        </p>
+                        <p>In memoQ, permissions tell if a user can access a resource and what they can do with it. To make this easier, memoQ supports groups. A group is a means to treat multiple users together: if a group has access to something, all of its members do. Adding a user to a group is much simpler than changing their permissions. To improve security, admins should give permissions to groups instead of single users.</p>
+                        <p>This table shows all groups:</p>
+                        <p>
+                            <img alt="" src="../Images/_mqw/admin-add-user-group-list.png" />
+                        </p>
+                        <p><b>To add the user to a group:</b> Check the check box next to a group name. You can select more than one group.</p>
+                        <p><b>To remove the user from a selected group:</b> Clear the check box next to the group name.</p>
+                        <p>&#160;</p>
+                        <p><span class="f_Command">Language pairs</span>
+                        </p>
+                        <p>You can set up the language pairs that the user works with.</p>
+                        <ul>
+                            <li><b>To add a language pair:</b> choose <span class="f_Command">Source language</span> and <span class="f_Command">Target language</span> from the dropdowns below the table. In the <span class="f_Command">Ops</span> column, click <span class="f_Command">Add</span> <img alt="" src="../Images/_mqw/icon_add.png" />.</li>
+                            <li><b>To remove a language pair:</b> In the <span class="f_Command">Ops</span> column, click <span class="f_Command">Delete</span> <img alt="" src="../Images/i-l/icon_delete.png" /> next to the language pair.</li>
+                        </ul>
+                        <h2>When you finish</h2>
+                        <p>To save your changes, click <span class="f_Command">Save</span>. To discard your changes and return to the <span class="f_Command">Users</span> page, click <span class="f_Command">Cancel</span>.</p>
+                        <!-- Content end -->
+        </div>
+    </body>
+</html>

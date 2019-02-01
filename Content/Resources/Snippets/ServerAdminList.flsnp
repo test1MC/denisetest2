@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="f_Command"><a href="../../Places/server-administrator.html">Connection</a></span> (choose this to manage a different server)</li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-user-management.html">User management</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-server-connections.html">Server connections</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-group-management.html">Group management</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-language-terminal.html">Language Terminal</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-default-server-resources.html">Windows single sign-on</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-default-server-resources.html">Default server resources</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-cal-licenses.html">CAL licenses</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-elm-licenses.html">ELM licenses</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-configuration-and-logging.html">Configuration and logging</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-wsapi.html">Web service interface</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-corpus-indexing.html">Corpus indexing</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-omniscien.html">Omniscien Technologies</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-archiving.html">Archiving</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-performance-counters.html">Performance counters</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-backgroun.html">Background tasks</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-broadcast-message.html">Broadcast message</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-discussions.html">Discussions</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-spelling-.html">Spelling in memoQWeb</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-weighted-counts.html">Weighted counts</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-audit-log.html">Audit log for TM</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-customer-.html">Customer portal</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/server-administrator-cms-conne.html">CMS connections</a></span>
+            </li>
+        </ul>
+    </body>
+</html>

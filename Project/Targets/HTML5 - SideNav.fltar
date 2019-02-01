@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  GetLatestBeforeCompile="false"
+  DisableAutoSync="true"
+  Skin="/Project/Skins/SideNavigation.flskn"
+  ConditionTagExpression="include[General.1 or General.2] exclude[General.3] "
+  SearchFilterSet="/Project/Advanced/SFS_Test.flsfs"
+  MasterToc="/Project/TOCs/Test.fltoc"
+  MasterPage="/Content/Resources/MasterPages/SideNav.flmsp"
+  ExcludeUnreferencedContent="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/test1.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

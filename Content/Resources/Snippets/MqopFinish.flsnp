@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To make changes to the documents, resources, or settings or the project, or to see reports, choose another pane:</p>
+        <ul>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-overview.html">Overview</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-translations.html">Translations</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-finances.html">Finances</a></span> (the project must be connected to Language Terminal)</li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-people.html">People</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-packages.html">Packages</a></span> (only in package-based online projects)</li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-livedocs.html">LiveDocs</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-translation-memories.html">Translation memories</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-term-bases.html">Term bases</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-muses.html">Muses</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-settings.html">Settings</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-history.html">History</a></span>
+            </li>
+            <li><span class="f_Command"><a href="../../Places/memoq-online-project-reports.html">Reports</a></span>
+            </li>
+            <li><span class="f_Command"><a href="#">Files</a></span>
+            </li>
+        </ul>
+        <p>Or, to return to <span class="f_Command"><a href="../../Places/project-home.html">Project home</a></span> or to the <span class="f_Command"><a href="../../Places/dashboard-for-project-managers.html">Dashboard</a></span>: Close the <span class="f_Command">memoQ online project</span> window. Before that, make sure you save your changes.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Save changes to the online project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When you make changes to an online project, the changes will happen on memoQ server, not on your computer. It is possible that several users make changes to the project at the same time.</p>
+                <p>Some changes are not saved automatically. When there are changes you need to save, the green tick mark icon at the top left will become orange: </p>
+                <p>
+                    <img alt="" src="../../Images/i-l/icon_online_proj_save_changes.png" />
+                </p>
+                <p>To save changes to the online project, click this button.</p>
+                <p>To get the changes that others made to the online project, click this button:</p>
+                <p>
+                    <img alt="" src="../../Images/i-l/icon_online_proj_refresh_from_server.png" />
+                </p>
+                <p>Make sure you save your changes before you click this.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="p_Tip"><strong>Switch windows:</strong> You can <a href="../../Places/memoq-online-project.html">open several online projects for management</a>. Each online project opens in a separate window. To switch between them and the <span class="f_Command"><a href="../../Places/dashboard-for-project-managers.html">Dashboard</a></span> or <span class="f_Command"><a href="../../Places/project-home.html">Project home</a></span> (if you have a local project open): press and hold down <span class="f_Command">Alt</span>, and press <span class="f_Command">Tab</span> a few times until you get to the window you want. Or: On the Windows taskbar, click the <span class="f_Command">memoQ</span> icon, and then click the window you want to switch to.</p>
+    </body>
+</html>

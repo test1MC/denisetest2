@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h1>Regular expressions</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>Regular expressions are a powerful means for finding character sequences in text. In memoQ, they are used to define <a href="../../Places/edit-segmentation-rule-set.html">segmentation rules</a>, <a href="../../Places/edit-auto-translation-rule-set.html">auto-translation rules</a>, or rules for the <a href="../../Places/regex-tagger.html">Regex tagger</a>. You can also use regular expressions in <a href="../../Places/advanced-find-and-replace.html">Find and replace</a>, and in the filtering controls in the <a href="../../Places/translation-editor.html">translation editor</a>.</p>
+            <p>Finding character sequences is a familiar task to everyone who has used a word processor or text editor before. The <span class="f_Command">Find</span> or <span class="f_Command">Search</span> dialog serves this purpose – if you search for 'cat', your editor will highlight words (or parts of words) such as 'cat', 'cats', or even 'sophisticated'.</p>
+            <p>Regular expressions, however, provide a lot more freedom to tell the computer what you are looking for. You can identify sequences such as a letter 'a', followed by two or three letters 'c'; a number of letters followed by one or more digits; or either of the words 'cat', 'dog' or 'mouse' – and much more. After reading through this page and experimenting with the examples, you'll know exactly how.</p>
+            <p class="p_Tip"><b>Note:</b> The term <em>regular expression</em> comes from the mathematical theory on which this pattern matching method is based. It is often abbreviated as regexp or regex – here we'll use regex, or in the plural, regexes.
+            </p>
+            <h2>Literal and Meta</h2>
+            <p>In a word processor's old-school Find function every character is interpreted literally. If you search for 'Yes? No...' it will highlight 'Yes? No...' – or nothing if these characters do not appear in the text. In a regex, however, some characters have special meaning – these are called meta characters. The most important meta characters are:</p>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <p><em><b>Expression</b></em>
+                            </p>
+                        </td>
+                        <td>
+                            <p><em><b>Description</b></em>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>.</p>
+                        </td>
+                        <td>
+                            <p>Matches any character.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>|</p>
+                        </td>
+                        <td>
+                            <p>Either expression on its left and right side matches the target string. For example, 'a|b' matches 'a' and 'b'.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>[]</p>
+                        </td>
+                        <td>
+                            <p>Any of the enclosed characters may match the target character. For example, '[ab]' matches 'a' and 'b'. '[0-9]' matches any digit.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>[^]</p>
+                        </td>
+                        <td>
+                            <p>None of the enclosed characters may match the target character. For example, '[^ab]' matches all characters except 'a' and 'b'. '[^0-9]' matches any non-digit character.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>*</p>
+                        </td>
+                        <td>
+                            <p>Character to the left of the asterisk in the expression should match 0 or more times. For example, 'be*' matches 'b', 'be' and 'bee'.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>+</p>
+                        </td>
+                        <td>
+                            <p>Character to the left of the plus sign in the expression should match 1 or more times. For example, 'be+' matches 'be' and 'bee' but not 'b'.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>?</p>
+                        </td>
+                        <td>
+                            <p>Character to the left of the question mark in the expression should match 0 or 1 time. For example, 'be?' matches 'b' and 'be' but not 'bee'.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{num}</p>
+                        </td>
+                        <td>
+                            <p>Character to the left of the enclosed number should match num times. For example, 'be{2}' matches 'bee' but not 'be'.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>()</p>
+                        </td>
+                        <td>
+                            <p>Creates a group and 'remembers' the matching section of the string. Groups can be used to re-order parts of a string, e.g. when converting dates to a different format.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\</p>
+                        </td>
+                        <td>
+                            <p>Escape character. If you want to use the character '\' itself, you should use '\\'.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p>Confusing? This table is only meant as a short summary and reference – the meaning of all of these expressions will be clarified in the sections below.</p>
+            <p>For now, let's focus on the first one, the dot. In a regex it means 'any character may stand here'. So the expression 'No...' in a regex will match any of the following:</p>
+            <ul>
+                <li>Notes</li>
+                <li>Notte</li>
+                <li>No...</li>
+                <li>No&amp;%X<p>So what do you need to write in a regex to match precisely 'No...' and no other text? To use a character that has a special meaning, you must 'escape' it: that is, precede with a backslash. Thus, 'No\.\.\.' will match exactly 'No...' and nothing else.</p></li>
+            </ul>
+            <h2>How to test regular expressions</h2>
+            <p>In memoQ, regular expressions now work in Find and replace, too. You can try a regular expression by opening a document for translation, pressing Ctrl+F. Type your regular expression in the Find what box, and click Find Next.</p>
+            <p>Alternatively, you can filter your document in the translation editor - using regular expressions. Just above the translation grid, check the check box with the Use regular expressions <img alt="" src="../../Images/i-l/icon_filter_regex.png" /> icon, and then type the regular expression in the filter box above the source or the target segments. Press Enter: memoQ will show those segments that match your regular expression. For example, here is how you filter for segments that include numbers, followed by a dot:</p>
+            <p>
+                <img alt="" src="../../Images/d-h/filter_regex_example.png" />
+            </p>
+            <p>If you need more detailed feedback from memoQ as you learn regular expressions, here's a trick to 'abuse' auto-translation rules for experimenting. Create a test project, and in the <span class="f_Command">Settings</span> pane of <span class="f_Command">Project home</span> click the <span class="f_Command">Auto-translation rules</span> tab. In the dialog that appears, delete every rule already there, and enter a rule of your own. For that rule, also add a replace order rule so that you see the dialog fields filled as shown below. (What a replace order rule means and why you need it here will be explained below.)</p>
+            <p>&#160;<br /><img alt="" src="../../Images/r-s/regexp_1.png" /></p>
+            <p>&#160;<br />Now click <span class="f_Command">Preview</span>, type the text shown below in the <span class="f_Command">Before auto translation</span> box, and click the <span class="f_Command">Preview</span> button. You will see the following:</p>
+            <p>&#160;<br /><img alt="" src="../../Images/r-s/regexp_2.png" /></p>
+            <p>&#160;<br />The 'x' in the <span class="f_Command">Replace order rules</span> field tells memoQ to replace text which the specified regex matches with a letter 'x' – that's how you know that your regex is working in this experiment. In the Auto translation preview dialog you can see exactly which parts of the text you provided are replaced by an 'x', allowing you to test your regex.</p>
+            <h2>Character classes</h2>
+            <p>Now that we've covered the dot and know how to experiment with new regexes, let's move on to some more serious expressions. Brackets in regexes allow you to specify a set of characters, or a character class. '[ab][01]' will match two-character-long sequences where the first character is either an 'a' or a 'b', and the second is either a '0' or a '1'. This yields 4 possible matches: 'a0', 'b0', 'a1', 'b1'.</p>
+            <p>Character classes can be used to express things like 'a digit followed by a comma or an exclamation mark' – which could be expressed as '[0123456789][,!]'. This, however, would be a very inconvenient thing to write. Regexes know better: you can specify a range of characters by writing '[0-9][,!]', which is exactly the same as the previous expression.</p>
+            <p><b>Note:</b> Can you use ranges to say 'match an alphabetical letter'? Yes and no. A typical solution to do this used to be '[a-z]', which matches any of the letters between a and z. Keep in mind, however, that memoQ works with many different languages which often have special characters in their alphabet. The Icelandic letter 'đ', for instance, is definitely not in the range a-z. Therefore memoQ uses a special extension to deal with alphabetical letters, which will be described below.</p>
+            <p>Also, keep in mind that all letters in memoQ regexes are interpreted in a case-sensitive way. Thus, '[a-z]' will match 'f' but not 'F'.</p>
+            <p>Besides specifying what you want to match, you can also use character classes to specify what not to match. The regex '[^0a].' will match an infinite number of two-character sequences, so long as the first character is not '0' or 'a'.</p>
+            <h2>Escape sequences</h2>
+            <p>As you saw above, you can specify the original meaning of the special meta characters by preceding them with a backslash ('\'), or escaping them. There are also other practical escape sequences available. The ones most important for the purposes regexes are used for in memoQ are:</p>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <p><em><b>Sequence</b></em>
+                            </p>
+                        </td>
+                        <td>
+                            <p><em><b>Description</b></em>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\s</p>
+                        </td>
+                        <td>
+                            <p>Whitespace: space, tab or newline</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\S</p>
+                        </td>
+                        <td>
+                            <p>Anything but whitespace</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\t</p>
+                        </td>
+                        <td>
+                            <p>Tab</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\n</p>
+                        </td>
+                        <td>
+                            <p>Newline</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\d</p>
+                        </td>
+                        <td>
+                            <p>Digit (between 0 and 9)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\D</p>
+                        </td>
+                        <td>
+                            <p>Anything but digits</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\w</p>
+                        </td>
+                        <td>
+                            <p>Alphanumeric character and underscore</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>\W</p>
+                        </td>
+                        <td>
+                            <p>Anything but alphanumeric characters</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Quantifiers</h2>
+            <p>Now that you've learned to specify a set of alternative characters to match at a given position, it's time to move down the road and tell memoQ how many characters to match. The special characters '*' and '+', and the expression {num} are used for this purpose.</p>
+            <ul>
+                <li>The regex 'x+' will match a sequence of characters which consists of one or more 'x's – thus, 'x', 'xx', 'xxx' and so on.</li>
+                <li>The regex 'x{3}' will match a sequence of characters which consists of exactly 3 'x's – thus, 'xxx', but not 'x' or 'xx'. If the text is 'xxxx', the regex will match the first 3 'x's and ignore the fourth. Visually: 'xxxx'. For a parallel, remember that the traditional Find dialog will find the word 'cat' in 'cats'.</li>
+                <li>You can use the {num} quantifier in a special flavor by specifying a minimum or maximum value (or both). Thus, 'x{3,5}' will match between 3 and 5 'x's; 'x{3,}' will match any sequence with at least 3 'x's; and 'x{,5}' will match any sequence with at most 5 'x's.</li>
+                <li>Perhaps the funniest of the quantifiers is the asterisk ('*'). Its meaning is 'match zero or more of the given character'. What on earth is that good for? Well, you can say things like "match the letter 'T' preceded by some 'a's – or maybe none". The corresponding regex is 'a*T', which will match 'T', 'aT', 'aaT' and so on.</li>
+                <li>A little less exciting but no less useful quantifier is the question mark. Its meaning is to match zero or one of the character in front of it. Thus, 'ax?y' will match 'ay' and 'axy', but not 'axxy'.<p>If you think quantifiers are fun, it's time to combine them with character sets. Just as after characters, you can write quantifiers after character sets. '[0-9]+%' will match a sequence of digits followed by a percentage sign; for instance, '1%' or '99%', but not '10a%'.</p></li>
+            </ul>
+            <h2>Groups and Alternatives</h2>
+            <p>Having covered character sets and quantifiers, there are only two standard regex features left to explore: groups and alternatives.</p>
+            <p>Using the pipe ('|') symbol you can join several smaller regexes to say 'match either this, that or the other thing'. The regex 'EUR|USD|GBP' will match any of these words, and only these.</p>
+            <p>When working with alternatives you mostly need to group them together using parentheses to get the desired results. Let's say you want a regex that matches any of these expressions: 'EUR 15 million', 'USD 37 million' and 'GBP 5 million'. As a first try, you might be inclined to write 'EUR|USD|GBP \d{1,} million'. This, however, will not do, as it only matches the following strings: 'EUR', 'USD' and 'GBP [any natural number] million'. You need to group your alternatives together in the regex: '(EUR|USD|GBP) \d{1,} million', where 'EUR|USD|GBP' can be either 'EUR' or 'USD' or 'GBP' and '\d{1,}' can be any natural number starting from zero.</p>
+            <h2>Replacing and reordering</h2>
+            <p>For the purposes of segmentation, memoQ only uses regexes to match patterns in the translation document's text. For auto-translation rules it also makes use of another powerful regex feature that has to do with groups: replacing and reordering parts of the matched text.</p>
+            <ul>
+                <li>Replacing a matched text with a single string:<p>You already saw a possible use for replacement in the How to test section of this page. There we defined the rather simplistic Replace order rule of 'x' to replace a regex match with the letter 'x' for the purposes of testing.</p></li>
+                <li>Reordering and/or replacing parts of a matched text:<p>Here you need to group all those parts of the regex in pair of parentheses that you want to reference. The match enclosed in every pair of parentheses is remembered by memoQ and assigned a number starting with 1. When writing the replace order rule you can reference these remembered substrings by '$1', '$2' etc., in the order of the opening parenthesis' appearance in the regex.</p></li>
+            </ul>
+            <p>Using the previous regex example, you have to put also '\d{1,}' in parentheses to make reordering of these currencies and their values possible: '(EUR|USD|GBP) (\d{1,}) million'. In the replace order rule you can reference 'EUR|USD|GBP' by '$1', and '\d{1,}' by '$2'. So if you want to change their order, the replace order rule could be '$2 Millionen $1'.</p>
+            <h2>memoQ extensions</h2>
+            <p><b>Finding tags</b>
+            </p>
+            <p>If you want to find tags with regular expressions, you can use three special escape sequences to match them:</p>
+            <ul>
+                <li><span class="f_Command">\tag</span> will match any tag</li>
+                <li><span class="f_Command">\itag</span> will match an inline tag (one that appears in a heptagon or a hexagon, like this: <img alt="" src="../../Images/i-l/icon_inlinetag.png" /></li>
+                <li><span class="f_Command">\mtag</span> will match a memoQ tag (one that appears in {curly brackets} in the text)</li>
+            </ul>
+            <p>Because tags are usually joined with the text that precedes or follows them, it is best to put them in parentheses '()' when you are looking for a combination of tags and text. Example: '<span class="f_Command">(\itag)int</span>' will match inline tags (no matter whether opening, closing, or empty) that are followed by words like 'integrated', 'interesting', 'intentional'.<br />&#160;</p>
+            <p><b>Custom lists</b>
+            </p>
+            <p>For the purposes of segmentation and defining auto-translation rules it is often useful to work with lists of words – abbreviations, the names of months, currencies etc. In theory it would be possible to list these words grouped together as alternatives in the regular expressions, as you saw in the preceding section. However, doing so would result in very complicated and hard to maintain regexes. memoQ therefore introduces a special extension to regular expressions: custom lists.</p>
+            <p>Lists of words used in regular expressions can be defined in the <span class="f_Command">Custom lists</span> tab of the segmentation rules dialog or of the auto-translation rules dialog, or in the<span class="f_Command"> Translation pairs</span> tab of the auto-translatables dialog.</p>
+            <ul>
+                <li>The custom lists in the <span class="f_Command">Custom lists</span> tab of the segmentation rules dialog should contain characters, abbreviations that are important for segmentation (e.g. '.', '!', 'e.g.').</li>
+                <li>The custom lists in the <span class="f_Command">Custom lists</span> tab of the auto-translatables dialog should contain words that have the same source and target form (e.g. '€', '$').</li>
+                <li>The custom lists in the <span class="f_Command">Translation pairs</span> tab of the auto-translatables dialog should contain source words with their target equivalents (e.g. In English-German projects 'January' should be translated as 'Januar', 'February' as 'Februar' etc.).<p>The name of a custom list must always start and end with a hash mark ('#'). The words that make up a custom list are always interpreted as plain text, i.e. no characters are treated as meta characters with a special meaning.</p><p class="p_Tip"><b>Note</b>: For segmentation rules memoQ defines one more special item: '#!#'. This extension does not influence regex matching in any way. Instead, it tells memoQ to introduce a segment break at the given location if the expression matches text in the imported document.</p></li>
+            </ul>
+            <p>Example for using custom lists of the<span class="f_Command"> Custom lists</span> tab of the <span class="f_Command">Auto-translation rules</span> dialog.</p>
+            <p>If you want memoQ to offer you '15 Millionen EUR' in the <span class="f_Command">Translation results</span> pane for every occurrence of 'EUR 15 million' and '37 Millionen USD' for 'USD 37 million'. Create a custom list labeled '#currency#' in the Custom lists tab containing 'EUR', 'USD' and 'GBP'.</p>
+            <p>
+                <img alt="" src="../../Images/r-s/regexp_3.png" />
+            </p>
+            <p>Now create the following Regex '(#currency#) (\d{1,}) million' (equivalent with '(EUR|USD|GBP) (\d{1,}) million') for which the replace order rule could be '$2 Millionen $1'. The preview of the above Regex and replace order rule will yield the following result:</p>
+            <p>
+                <img alt="" src="../../Images/r-s/regexp_4.png" />
+            </p>
+            <p>&#160;</p>
+            <p><b>Translation pairs</b>
+            </p>
+            <p>If you want memoQ to offer you '15 Millionen Euro' in the <span class="f_Command">Translation results</span> pane for every occurrence of 'EUR 15 million' and '37 Millionen Dollar' for 'USD 37 million'. Create a custom list labeled '#currency2#' in the <span class="f_Command">Translation pairs</span> tab containing the following translation pairs: 'EUR' – 'Euro', 'USD' – 'Dollar' and 'GBP' – 'Pfund'.</p>
+            <p class="p_Tip"><b>Note</b>: The name for the Translation pairs list must be a different one than for the Custom lists.
+            </p>
+            <p>&#160;<br /><img alt="" src="../../Images/r-s/regexp_5b.png" /></p>
+            <p>&#160;<br />Now create the following Regex '(#currency2#) (\d{1,}) million' for which the replace order rule could be '$2 Millionen $1'. The preview of the above Regex and replace order rule will yield the following result:</p>
+            <p>&#160;<br /><img alt="" src="../../Images/r-s/regexp_6.png" /></p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <MadCap:changeData>
+            <MadCap:AttributesChange MadCap:userName="dVega" MadCap:initials="DV" MadCap:id="1" MadCap:timestamp="2018-10-01T08:48:31.6453725-07:00" MadCap:attribute="class" />
+        </MadCap:changeData><title>Add abbreviation</title>
+    </head>
+    <body>
+        <h1>Add abbreviation</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>Abbreviations are exceptions to segmentation rules. memoQ doesn't break segments after an abbreviation. In this window, you can add a new abbreviation.</p>
+            <p class="p_Tip"><b>If you use your own <a href="..\Things\things-segmentation-rules.html">segmentation rules</a>:</b> make sure they include the default abbreviation lists (#abbr#, #abbr_num#). If the default abbreviation lists aren't there, you cannot use this command.
+                        </p>
+            <h2>How to get here</h2>
+            <p>Open a document for <a href="..\Places\project-home-translations-tpro.html">translation</a>. Select an abbreviation in the <a href="..\Places\the-grid.html">source text</a>. On the <span class="f_Command"><a href="..\Places\ribbons-edit.html">Edit</a></span> ribbon, click <MadCap:snippetText src="../Resources/Snippets/UI_AddAbbrev.flsnp" class="ui" />.</p>
+            <p>
+                <img alt="" src="../Images/0-c/addabbreviation.png" />
+            </p>
+            <h2>What can you do?</h2>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Choose the type of the abbreviation</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>In segmentation rules, there are different lists for abbreviations we use differently. Choose where the abbreviation goes:</p>
+                    <ul>
+                        <li>Click <MadCap:snippetText src="../Resources/Snippets/UI_Abbreviation.flsnp" MadCap:changes="1" class="ui" />: this makes the selected text a regular abbreviation. Example: memoQ would break after "Mr." in "Mr. Smith", but it won't if you add "Mr." as an abbreviation. Or use "Prof. Dr." so memoQ won't break segment after "Prof." but after "Prof. Dr.". Make sure there is a period at the end of words that occur in the middle of sentences.</li>
+                        <li>Click <MadCap:snippetText src="../Resources/Snippets/UI_ProperName.flsnp" />: this makes the selected text a brand name that begins with a lowercase letter. Example: memoQ won't break segment before "memoQ" even if a sentence begins with it. Add "memoQ" as a proper name, and memoQ will break segment before it.</li>
+                        <li>Click <MadCap:snippetBlock src="../Resources/Snippets/UI_AbbrBeforeNumber.flsnp" />: this makes the selected text an abbreviation before a number. Example: "No." in "No. 1." If "No." is not added, memoQ will break segment before the number. If "No." is added, memoQ will break segment after the number.</li>
+                        <li>Click <MadCap:snippetText src="../Resources/Snippets/UI_WordAfterNumber.flsnp" />: This option isn't there unless the source language is German. In German, all nouns start with a capital letter. Example: "Januar" in "1. Januar" If "Januar" is not added, memoQ will break segment after the number. If "Januar" is added, memoQ won't break segment after the number.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Re-segment documents after adding the abbreviation</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>When you add an abbreviation, you change the segmentation rule. Normally, memoQ uses segmentation rules when it imports a document. After adding an abbreviation, memoQ can change the segments in the documents, without importing them again.</p>
+                    <ul>
+                        <li>Check the <span class="f_Command">Resegment this document now</span> check box: memoQ will go through the active document, and segment it again, respecting the new abbreviation.</li>
+                        <li>Check the <span class="f_Command">Resegment all documents now</span> check box: memoQ will go through every document in the project, and segment them again, respecting the new abbreviation.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h2>When you finish</h2>
+            <p>Click <span class="f_Command">OK</span><b>:</b> memoQ adds the abbreviation to the segmentation rules, and changes the segmentation of the active document or all documents in your project.</p>
+            <p>Click <span class="f_Command">Cancel</span> to close the Add abbreviation window without adding the abbreviation or segmenting your documents.</p>
+            <h2>See also</h2>
+            <p><span class="f_Command"><a href="..\Places\find-new-abbreviations.html">Find abbreviations</a></span>
+            </p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

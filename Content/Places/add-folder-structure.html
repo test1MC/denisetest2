@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Add folder structure</title>
+    </head>
+    <body>
+        <h1>Add folder structure</h1>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>In a project, you can import documents from an entire folder and its subfolders. In the<span class="f_Command"> Add folder structure</span> window, you can choose the folder. You can set another folder where the translations are exported, too.</p>
+            <h2>How to get here</h2>
+            <p>Open a project. In <span class="f_Command"><a href="..\Places\project-home.html">Project home</a></span>, choose <span class="f_Command"><a href="..\Places\project-home-translations-tpro.html">Translations</a></span>. On the <span class="f_Command"><a href="..\Places\ribbons-documents.html">Documents</a></span> ribbon, choose <span class="f_Command">Import Folder Structure</span>.</p>
+            <p class="p_Tip"><b>Or:</b> On the <span class="f_Command"><a href="..\Places\ribbons-project.html">Project</a></span> ribbon, click <span class="f_Command">New Project</span>. In the <span class="f_Command"><a href="..\Places\create-new-project-from-template.html">Create new project from template</a></span> window, click <span class="f_Command">Add folder structure</span>.</p>
+            <p class="p_Tip"><b>In an online project</b> (memoQ project manager only): <a href="..\Places\memoq-online-project.html">Open an online project for management</a>. Choose <span class="f_Command"><a href="..\Places\memoq-online-project-translations.html">Translations</a></span>. On the <span class="f_Command"><a href="..\Places\ribbons-online-project.html">Online Project</a></span> ribbon, click the <span class="f_Command">Import</span> label below the <span class="f_Command">Import</span> icon. From the menu, choose <span class="f_Command">Import Folder Structure</span>.</p>
+            <p>
+                <img alt="" src="../Images/0-c/addfolderstructure_new.png" />
+            </p>
+            <h2>What can you do?</h2>
+            <p>Choose the folder: Next to the <span class="f_Command">Base path</span> box, click the ... button, and find the folder you need. </p>
+            <p class="p_Tip"><b>Or:</b> Open the folder in File explorer (of Windows), and copy the path of the folder to the clipboard. Then paste the folder path in the <span class="f_Command">Base path</span> box.</p>
+            <p>After you choose the folder, click <span class="f_Command">Update</span>. In the middle of the window, memoQ lists the documents it finds.</p>
+            <p>Choose which files memoQ must import: In the <span class="f_Command">Include files</span> box, a lot of file name masks are listed. To import a file that has an unusual extension (example: <span class="f_Command">.mqm</span>): Go to the end of the text in the <span class="f_Command">Include files</span> box. Type a semicolon (;) and then the file mask (example: <span class="f_Command">*.mqm</span>).</p>
+            <p>To include image files: Normally, memoQ doesn't import them. Check the <span class="f_Command">Import image files</span> check box to get image files into your project.</p>
+            <p>Choose which files memoQ must <em>not</em> import: In the <span class="f_Command">Exclude files</span> box, type file masks. Separate them with semicolons (;). Example: to exclude files from the '<span class="f_Command">de</span>' subfolder, type '<span class="f_Command">de\*</span>'.</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Set where the translated documents must be exported</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>You can set an export path rule for the translated documents. Normally, memoQ exports the translations in another folder. The other folder has the same name as the original one, plus the code of the target language. Inside the new folder, memoQ uses the same subfolders.</p>
+                    <p class="p_Tip"><b>You can't do this</b> when you import the folder structure while you are creating a new project.
+                    </p>
+                    <p>To choose one specific folder: Click the ... icon next to the <span class="f_Command">Rule</span> box.</p>
+                    <p>To change the rule, or write a new one: See the topic about <a href="..\Places\edit-export-path-rules.html">editing export path rules</a>.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Change the import settings for the documents</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>In the <span class="f_Command">Add folder structure</span> window, click <span class="f_Command">OK</span>. The <span class="f_Command"><a href="..\Places\document-import-options.html">Document import options</a></span> window always appears.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h2>When you finish</h2>
+            <p>Click <span class="f_Command">OK</span>: The <span class="f_Command"><a href="..\Places\document-import-options.html">Document import options</a></span> window appears. There you can set the filter configuration for each document.</p>
+            <p>Click <span class="f_Command">Cancel</span>: memoQ doesn't import any documents. It returns to the <span class="f_Command"><a href="..\Places\project-home-translations-tpro.html">Translations</a></span> list or to the <span class="f_Command"><a href="..\Places\create-new-project-from-template.html">Create new project from template</a></span> window.</p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

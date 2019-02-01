@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Export path rules</title>
+    </head>
+    <body>
+        <h1 class="p_Heading1"><span class="f_Heading1">Export path rules</span>
+        </h1>
+        <div class="TopicContent">
+            <table id="content-table">
+                <caption />
+                <tr valign="top">
+                    <td align="left">
+                        <!-- Content start -->
+                        <p>Export paths define a naming convention. Export path rules are crucial in the following situations:</p>
+                        <ul>
+                            <li>In complex multi-file projects where files are stored in different folders (often embedded into each other), and your customer expects you to put the target language code into every target file's name.</li>
+                            <li>When your customer wants you to simply use the same name but store the data in a different folder.</li>
+                            <li>Your customer expects you to create a new folder under the original folder with the target language code. <p>An export path rule defines a conversion between the name and location of an import file (i.e. <span class="f_CodeExample">C:\memoQ localization\Export_path_rules.xml</span>) and the desired name and location of the files you export after translation (e.g. <span class="f_CodeExample">C:\memoQ localization\Export_path_rules_fr.xml</span>). When you have 500 files in a project, you will truly appreciate the power of this tool.</p></li>
+                        </ul>
+                        <p><b>Example:</b>
+                        </p>
+                        <p>&lt;BasePathAbs&gt;\..\mqWeb_6_2_translated\&lt;RelativePath&gt;\&lt;OrigFileNameExt&gt;</p>
+                        <p>The above export path rule specifies:</p>
+                        <ul>
+                            <li>the absolute base path of the original file including the drive letter</li>
+                            <li>the name of the output folder to be created when you export the files in stored path (mqWeb_6_2_translated in this example)</li>
+                            <li>the relative path which does not contain a drive letter</li>
+                            <li>the specification or the file extension or not, in this example the original file name with no ISO language code extension<p>See also:</p></li>
+                            <li><a href="..\Places\edit-export-path-rules.html">Edit an export path rule</a>
+                            </li>
+                            <li><a href="..\Places\relative-export-path.html">Relative export path</a>
+                            </li>
+                            <li><a href="..\Places\change-export-path.html">Set the output folder and file name for exporting documents</a>
+                            </li>
+                        </ul>
+                        <!-- Content end -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="Tables"
+    Concepts="2"
+    Order="1"></SearchFilter>
+  <SearchFilter
+    Name="Snippets"
+    Comment=""
+    Concepts="1"
+    Order="0" />
+  <SearchFilter
+    Name="Cross-References"
+    Comment=""
+    Concepts="3"
+    Order="2" />
+</CatapultSearchFilterSet>

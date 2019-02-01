@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To save the settings, and return to the <span class="f_Command"><a href="../../Places/options-default-resources.html">Default resources</a></span> tab of the <span class="f_Command"><a href="../../Places/options.html">Options</a></span> window: Click <span class="f_Command">OK</span>, then click <span class="f_Command">OK</span> again.</p>
+        <p>To return to the <span class="f_Command"><a href="../../Places/options-default-resources.html">Default resources</a></span> tab of the <span class="f_Command"><a href="../../Places/options.html">Options</a></span> window, but not save the new settings: Click <span class="f_Command">Cancel</span>, then click <span class="f_Command">Cancel</span> again.</p>
+        <p>To use the MT&#160;output in the <a href="../../Places/translation-editor.html">translation editor</a>:</p>
+        <ol>
+            <li>On the <span class="f_Command">Services</span> tab of the <span class="f_Command"><a href="../../Places/mt-settings.html">Edit machine translation settings</a></span> window, check the plugin's check box on the left.</li>
+            <li>On the <span class="f_Command">Settings</span> tab of the <span class="f_Command"><a href="../../Places/mt-settings.html">Edit machine translation settings</a></span> window, in the <span class="f_Command">Translation results</span> area, choose a setting other than <span class="f_Command">Off</span>.</li>
+            <li><a href="../../Places/project-home.html">Open a project</a> with a supported language pair.</li>
+            <li><a href="../../Places/translation-editor.html">Open a document for editing</a>, and <a href="../../Places/translation-results-list.html">see the machine-translated suggestions</a>.</li>
+        </ol>
+        <p>To use the MT&#160;output in pre-translation:</p>
+        <ol>
+            <li>On the <span class="f_Command">Services</span> tab of the <span class="f_Command"><a href="../../Places/mt-settings.html">Edit machine translation settings</a></span> window, check the plugin's check box on the left.</li>
+            <li>On the <span class="f_Command">Settings</span> tab of the <span class="f_Command"><a href="../../Places/mt-settings.html">Edit machine translation settings</a></span> window, select the plugin from the <span class="f_Command">Pre-translation</span> dropdown.</li>
+            <li><a href="../../Places/project-home.html">Open a project</a> with a supported language pair.</li>
+            <li>Run <span class="f_Command"><a href="../../Places/pre-translate-and-statistics.html">Pre-translate</a></span>. In the <span class="f_Command"><a href="../../Places/pre-translate-and-statistics.html">Pre-translate and statistics</a></span> window, check the <span class="f_Command">Use machine translation if there's no TM match</span> check box. (memoQ will remember this.)</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,816 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: tablewidth;
+	border-collapse: collapse;
+	max-id: 4;
+	cell-padding-left: 0.5em;
+	cell-padding-right: 0.5em;
+	cell-padding-top: 0.5em;
+	cell-padding-bottom: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	name: Column1;
+	id: 0;
+	size: 60%;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column2;
+	size: 40%;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	name: Body1;
+	id: 1;
+	vertical-align: middle;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-tablewidth
+{
+	border-collapse: collapse;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-tablewidth-Column-Column1
+{
+	width: 60%;
+}
+
+.TableStyle-tablewidth-Column-Column2
+{
+	width: 40%;
+}
+
+.TableStyle-tablewidth-Head-Header1
+{
+	
+}
+
+.TableStyle-tablewidth-HeadI-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadI-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadE-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadE-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadF-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadF-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadH-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadH-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadD-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadD-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadC-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadC-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadB-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadB-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadA-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadA-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadG-Column1-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadG-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadI-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadI-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadE-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadE-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadF-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadF-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadH-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadH-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadD-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadD-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadC-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadC-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadB-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadB-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadA-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadA-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-HeadG-Column2-Header1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-HeadG-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-tablewidth-Foot-Footer1
+{
+	
+}
+
+.TableStyle-tablewidth-FootI-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootE-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootF-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootH-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootD-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootC-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootB-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootA-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootG-Column1-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootI-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootE-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootF-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootH-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootD-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootC-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootB-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootA-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-FootG-Column2-Footer1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.TableStyle-tablewidth-FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-tablewidth-Body-Body1
+{
+	
+}
+
+.TableStyle-tablewidth-BodyI-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyE-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyF-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyH-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyD-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyC-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyB-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyA-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyG-Column1-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyI-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyE-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyF-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyH-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyD-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyC-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyB-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyA-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-tablewidth-BodyG-Column2-Body1
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+.TableStyle-tablewidth-BodyG-Column2-Body1 p
+{
+	
+}
+
+

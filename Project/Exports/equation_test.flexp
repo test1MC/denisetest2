@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultExportProjectFile
+  DestinationType="ManualSelection"
+  SourceProjectPath="C:\Users\dvega\Documents\My Projects\snippettest\snippettest.flprj"
+  DestinationName="equation_test"
+  DestinationPath="C:\Users\dvega\Documents\My Projects"
+  ExportType="Files"
+  TargetConvertVariables="false"
+  TargetConvertSnippets="false">
+  <SelectedContentFiles>
+    <Url
+      Source="equation test.htm" />
+  </SelectedContentFiles>
+  <SelectedProjectFiles />
+</CatapultExportProjectFile>

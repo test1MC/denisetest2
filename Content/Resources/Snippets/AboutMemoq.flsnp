@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="TopicContent">
+            <!-- Content start -->
+            <p>memoQ is a translation environment that helps translators, translation companies, and other organizations that are active in translation – such as non-profit organizations or translation departments of various companies.</p>
+            <p>To learn more, visit <span class="f_Command"><a href="https://memoq.com" target="_blank">memoq.com</a></span>.</p>
+            <h2>How to get here</h2>
+            <p>On the ribbon, click the <span class="f_Command"><a href="../../Places/memoq-menu.html">memoQ</a></span> tab. The <span class="f_Command"><a href="../../Places/memoq-menu-my-memoq.html">My memoQ</a></span> page appears. Choose <span class="f_Command"><a href="../../Places/memoq-menu-help.html">Help</a></span>. Click <span class="f_Command">About memoQ</span>.</p>
+            <p>
+                <img alt="" src="../../Images/0-c/aboutbox.png" />
+            </p>
+            <h2>Credits</h2>
+            <p>This is the list of people who have ever worked on memoQ.<br />&#160;</p>
+            <p><strong>Product concept:</strong>
+                <br />Balázs Kis, István Lengyel, Gábor L. Ugray</p>
+            <p><strong>Product management:</strong>
+                <br />Gergely Vándor</p>
+            <p><strong>Product design:</strong>
+                <br />Veronika Pándi, Zsolt Varga, Tamás Rell, Csaba Gutléber, Mónika Antunovics, Zsolt Farkas, Gábor Ugray, Gusztáv Jánvári</p>
+            <p><strong>Production manager:</strong>
+                <br />Florian Sachse</p>
+            <p><strong>Senior development project management:</strong>
+                <br />Tamás Tőkés, Zoltán Benedek, Sándor Juhász</p>
+            <p><strong>Programming:</strong>
+                <br />Ádám Bálint, Ádám Zöldesi, Ágnes Varga, Ágoston Winkler, Ákos Dudás, András Földes, Árpád Balla, Balázs Engedy, Balázs Molnár, Balázs Szűcsi, Balázs Úr, Bence Kővári, Bence Szalai, Csaba Lukácsi, Dániel Lengyel, Florian Sachse, Gábor Nagy, Gábor Szabó, Gergely Hámos, István Darvas, István Madari, Kristóf Gyulai, Márton Szalay, Máté Jenei, Norbert Bíró, Péter Cserkúti, Peter Gecsényi, Péter Kongyik, Renáta Iváncsy, Sándor Juhász, Sándor Kolumbán, Szabolcs Czinege, Tamás Bordi, Tamás Iklódi, Tamás Schrádi, Tamás Tőkés, Tibor Nagy, Vilmos Handó, Vilmos Martinek, Vince Gellár, Zoltán Benedek, Zoltán Kacsó, Zoltán Szabó, Zsolt Berényi, Zsolt Paral, Zsolt Sárosi, Zsolt Tóth</p>
+            <p><strong>Graphics Design:</strong>
+                <br />Zsuzsa Molnár</p>
+            <p><strong>Testing and quality assurance:</strong>
+                <br />Gusztáv Jánvári<br />TnD (TÉK Translations) (Zoltán Boda, lead)</p>
+            <p>Special thanks to the memoQ beta tester community.</p>
+            <p><strong>Documentation:</strong>
+                <br />Balázs Kis, Gergely Garai, Zoltán Benedek (WSAPI)</p>
+            <p><strong>Localization:</strong>
+                <br />Christine Liehr, Dagmar Schuppert, Gemino (German); Kaori Myatt, Ida Corporation (Japanese); Mathieu Tremblay, Adéquat (French); Albisa S.L. (Spanish); Marek Pawelec (Polish); TranslaCAT (Brazilian Portuguese); Balázs Kis, Mónika Antunovics, Gergely Garai (Hungarian); Maria Starkova (Russian); Xinlei Xu, EC&#160;Innovations (Chinese)</p>
+            <h2>Third Party Software</h2>
+            <p>ADO.NET provider for SQLite: <a href="http://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki">http://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki</a></p>
+            <p>AlphaVSS: <a href="http://alphavss.alphaleonis.com">http://alphavss.alphaleonis.com/</a></p>
+            <p>Aspose.Total for .NET. 17.1.0. © Aspose 2002-2017. All Rights Reserved.</p>
+            <p>DevExpress 14.1.7</p>
+            <p>Genuine Channels by Genrix Software, Inc. © 2002–2006 Genrix Software, Inc. – www.genuinechannels.com.</p>
+            <p>Hunspell Spelling Checker</p>
+            <p>IBM ICU (International Components for Unicode)</p>
+            <p>InnoSetup</p>
+            <p>PcID</p>
+            <p>Unity 4.0.1</p>
+            <p>memoQ prefers Hunspell as the alternative spelling checker. Installed as separate program.<br />© 2003–2008 László Németh; FSF.hu Foundation. Licensed under GPL/LGPL/MPL tri-license.</p>
+            <p>Json.NET by James Newton-King ©2007</p>
+            <p>The MIT License (MIT), by James Newton-King ©2007</p>
+            <p>Language detection uses word lists for a couple of languages. These lists have been downloaded from here: <a href="https://invokeit.wordpress.com/frequency-word-lists/" target="_blank">https://invokeit.wordpress.com/frequency-word-lists/</a> by Hermit Dave (ShareAlike 3.0) © 2011-2013</p>
+            <p>MagicLibrary 1.7.4 by Crownwood Software Ltd, Bracknell, Berkshire, UK – <a href="http://www.dotnetmagic.com" target="_blank">www.dotnetmagic.com</a>.</p>
+            <p>SharpZipLib 0.83.1 by Mike Krueger © 2001 – www.icsharpcode.net/OpenSource/SharpZipLib.</p>
+            <p>xPDF © 1996-2007 Glyph &amp; Cog, LLC.</p>
+            <p>memoQ uses pdftotext to extract plain text from PDF documents.<br />pdftotext is part of the xPDF tool set. Installed as a separate program.<br />Licensed under GPL 2.0.</p>
+            <p>MVVM Light Toolkit, v4.1.24.0. Copyright (c) 2009 - 2011 Laurent Bugnion.</p>
+            <p><a href="http://mvvmlight.codeplex.com/license" target="_blank">http://mvvmlight.codeplex.com/license</a>
+            </p>
+            <p>Copyright © 2013 Microsoft Corporation. Licensed under the Reactive Extensions EULA. http://msdn.microsoft.com/en-us/hh295787</p>
+            <p>WPF Toolkit 3.5.50211.1. Written by JenniLe Shimmy. Copyright © 2013 Microsoft Corporation. Licensed under the Reactive Extensions EULA.</p>
+            <p><a href="http://msdn.microsoft.com/en-us/hh295787" target="_blank">http://msdn.microsoft.com/en-us/hh295787</a>
+            </p>
+            <p>Extended WPF Toolkit Community Edition by Xceed Software Inc / Microsoft 2006-2014</p>
+            <p>Stop word lists:&#160;Reused and modified the ‘stop-words’ resource from the github page of Alireza Savand (https://github.com/Alir3z4), and the stop word lists created by Kevin Lossner (http://www.translationtribulations.com). Original github resources: https://github.com/Alir3z4/stop-words. Licensed under Attribution 4.0 International (CC BY 4.0).</p>
+            <p>Copyright Notice<br />Microsoft, Windows, Word, Excel and PowerPoint are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries. Trados is a registered trademark of SDL International in the United States and/or other countries.</p>
+            <!-- Content end -->
+        </div>
+    </body>
+</html>

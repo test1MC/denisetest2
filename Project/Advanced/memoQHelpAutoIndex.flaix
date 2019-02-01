@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAutoIndexSet>
+<AutoIndex
+    Phrase=".mqres"
+    IndexTerm=".mqres"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase=".mqres file"
+    IndexTerm=".mqres file"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="account"
+    IndexTerm="account"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="actions"
+    IndexTerm="actions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="activation"
+    IndexTerm="activation"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Activation wizard"
+    IndexTerm="Activation wizard"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="active document"
+    IndexTerm="active document"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="ActiveTM"
+    IndexTerm="ActiveTM"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="address of the server"
+    IndexTerm="address of the server"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="administrator"
+    IndexTerm="administrator"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Administrators group"
+    IndexTerm="Administrators group"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Advanced find and replace"
+    IndexTerm="Advanced find and replace"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="alignment"
+    IndexTerm="alignment"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="all documents"
+    IndexTerm="all documents"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="analysis"
+    IndexTerm="analysis"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="analysis report"
+    IndexTerm="analysis report"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="API"
+    IndexTerm="API"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Aspose"
+    IndexTerm="Aspose"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="assign"
+    IndexTerm="assign"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="assign documents"
+    IndexTerm="assign documents"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="AutoCorrect"
+    IndexTerm="AutoCorrect"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="AutoCorrect list"
+    IndexTerm="AutoCorrect list"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="AutoCorrect lists"
+    IndexTerm="AutoCorrect lists"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="automated actions"
+    IndexTerm="automated actions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="automated tasks"
+    IndexTerm="automated tasks"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="AutoPick"
+    IndexTerm="AutoPick"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="auto-translation"
+    IndexTerm="auto-translation"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="auto-translation rule"
+    IndexTerm="auto-translation rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="auto-translation rule set"
+    IndexTerm="auto-translation rule set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="auto-translation rule sets"
+    IndexTerm="auto-translation rule sets"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="auto-translation rules"
+    IndexTerm="auto-translation rules"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="backup"
+    IndexTerm="backup"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="bilingual"
+    IndexTerm="bilingual"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="bilingual document"
+    IndexTerm="bilingual document"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="CAL"
+    IndexTerm="CAL"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="CAL server"
+    IndexTerm="CAL server"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="candidates"
+    IndexTerm="candidates"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="category"
+    IndexTerm="category"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="certificate"
+    IndexTerm="certificate"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="change filter"
+    IndexTerm="change filter"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="change filter and configuration"
+    IndexTerm="change filter and configuration"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="character"
+    IndexTerm="character"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="characters"
+    IndexTerm="characters"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="check out"
+    IndexTerm="check out"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="check out online project"
+    IndexTerm="check out online project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="check out the project"
+    IndexTerm="check out the project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="client"
+    IndexTerm="client"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="cloud subscription"
+    IndexTerm="cloud subscription"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="CMS"
+    IndexTerm="CMS"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="comment"
+    IndexTerm="comment"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="comments"
+    IndexTerm="comments"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="commenting"
+    IndexTerm="commenting"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="communication"
+    IndexTerm="communication"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Concordance"
+    IndexTerm="Concordance"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="configure"
+    IndexTerm="configure"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="confirm"
+    IndexTerm="confirm"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="confirm and update"
+    IndexTerm="confirm and update"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="confirm and update rows"
+    IndexTerm="confirm and update rows"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="confirmed"
+    IndexTerm="confirmed"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="connection"
+    IndexTerm="connection"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="connector"
+    IndexTerm="connector"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="content connector"
+    IndexTerm="content connector"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="content connector client"
+    IndexTerm="content connector client"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="content connector service"
+    IndexTerm="content connector service"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="content source"
+    IndexTerm="content source"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="context"
+    IndexTerm="context"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="copy of the project"
+    IndexTerm="copy of the project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="corpora"
+    IndexTerm="corpora"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="corpus"
+    IndexTerm="corpus"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="count"
+    IndexTerm="count"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create a project"
+    IndexTerm="create a project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create an online project"
+    IndexTerm="create an online project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create new LQA model"
+    IndexTerm="create new LQA model"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create new non-translatable list"
+    IndexTerm="create new non-translatable list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create new project"
+    IndexTerm="create new project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="create new report"
+    IndexTerm="create new report"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="created from a template"
+    IndexTerm="created from a template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="current project"
+    IndexTerm="current project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="custom fields"
+    IndexTerm="custom fields"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Customer Portal"
+    IndexTerm="Customer Portal"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="CSV"
+    IndexTerm="CSV"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Dashboard"
+    IndexTerm="Dashboard"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="data"
+    IndexTerm="data"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="date"
+    IndexTerm="date"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="date and time"
+    IndexTerm="date and time"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="deadline"
+    IndexTerm="deadline"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Deployment tool"
+    IndexTerm="Deployment tool"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="description"
+    IndexTerm="description"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="discussions"
+    IndexTerm="discussions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="document import options"
+    IndexTerm="document import options"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="document import settings"
+    IndexTerm="document import settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="document pair"
+    IndexTerm="document pair"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="documents in the project"
+    IndexTerm="documents in the project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="documents ribbon"
+    IndexTerm="documents ribbon"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="edit distance"
+    IndexTerm="edit distance"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="edit distance report"
+    IndexTerm="edit distance report"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="edit distance statistics"
+    IndexTerm="edit distance statistics"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="edit project"
+    IndexTerm="edit project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="edit project template"
+    IndexTerm="edit project template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="editor tab"
+    IndexTerm="editor tab"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="ELM"
+    IndexTerm="ELM"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="e-mail"
+    IndexTerm="e-mail"
+    IgnoreCase="True"></AutoIndex>
+	
+<AutoIndex
+    Phrase="email"
+    IndexTerm="e-mail"
+    IgnoreCase="True"></AutoIndex>	
+
+<AutoIndex
+    Phrase="entries"
+    IndexTerm="entries"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="entry"
+    IndexTerm="entry"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="errors"
+    IndexTerm="errors"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="errors and warnings"
+    IndexTerm="errors and warnings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="errors and warnings tab"
+    IndexTerm="errors and warnings tab"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="exact match"
+    IndexTerm="exact match"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Excel"
+    IndexTerm="Excel"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="export"
+    IndexTerm="export"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="export or import"
+    IndexTerm="export or import"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="export path rule"
+    IndexTerm="export path rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="export path rules"
+    IndexTerm="export path rules"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="fault handling"
+    IndexTerm="fault handling"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="filter"
+    IndexTerm="filter"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="filtering"
+    IndexTerm="filtering"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="filter configuration"
+    IndexTerm="filter configuration"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="filter the list"
+    IndexTerm="filter the list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="filtering and sorting"
+    IndexTerm="filtering and sorting"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Find and replace"
+    IndexTerm="Find and replace"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="folder structure"
+    IndexTerm="folder structure"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="font"
+    IndexTerm="font"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="font substitution"
+    IndexTerm="font substitution"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="font substitution profile"
+    IndexTerm="font substitution profile"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="font substitution settings"
+    IndexTerm="font substitution settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="format"
+    IndexTerm="format"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="formatting"
+    IndexTerm="formatting"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="group"
+    IndexTerm="group"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="groups"
+    IndexTerm="groups"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="handoff package"
+    IndexTerm="handoff package"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Help"
+    IndexTerm="Help"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="ignore list"
+    IndexTerm="ignore list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="ignore lists"
+    IndexTerm="ignore lists"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="import"
+    IndexTerm="import"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="import an .mqres file"
+    IndexTerm="import an .mqres file"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="import documents"
+    IndexTerm="import documents"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="import with options"
+    IndexTerm="import with options"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="importing"
+    IndexTerm="importing"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="inline"
+    IndexTerm="inline"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="inline tag"
+    IndexTerm="inline tag"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="inline tags"
+    IndexTerm="inline tags"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="install"
+    IndexTerm="install"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="keyboard shortcut"
+    IndexTerm="keyboard shortcut"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="keyboard shortcut set"
+    IndexTerm="keyboard shortcut set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="keyboard shortcuts"
+    IndexTerm="keyboard shortcuts"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="language pair"
+    IndexTerm="language pair"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="language pairs"
+    IndexTerm="language pairs"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Language Terminal"
+    IndexTerm="Language Terminal"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Language Terminal account"
+    IndexTerm="Language Terminal account"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Language Terminal account wizard"
+    IndexTerm="Language Terminal account wizard"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Language Terminal profile"
+    IndexTerm="Language Terminal profile"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="languages of the project"
+    IndexTerm="languages of the project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="license"
+    IndexTerm="license"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="licenses"
+    IndexTerm="licenses"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="linguistic quality assurance"
+    IndexTerm="linguistic quality assurance"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="link"
+    IndexTerm="link"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs"
+    IndexTerm="LiveDocs"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs corpora"
+    IndexTerm="LiveDocs corpora"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs corpus"
+    IndexTerm="LiveDocs corpus"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs pane"
+    IndexTerm="LiveDocs pane"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs settings"
+    IndexTerm="LiveDocs settings"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LiveDocs settings profile"
+    IndexTerm="LiveDocs settings profile"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="local copy"
+    IndexTerm="local copy"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="local project"
+    IndexTerm="local project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="local projects"
+    IndexTerm="local projects"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Log in to server"
+    IndexTerm="Log in to server"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="LQA"
+    IndexTerm="LQA"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LQA model"
+    IndexTerm="LQA model"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="LQA models"
+    IndexTerm="LQA models"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="machine translation"
+    IndexTerm="machine translation"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="machine translation settings"
+    IndexTerm="machine translation settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="main window"
+    IndexTerm="main window"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="manage online projects"
+    IndexTerm="manage online projects"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="master"
+    IndexTerm="master"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="match"
+    IndexTerm="match"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="match rate"
+    IndexTerm="match rate"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="matching"
+    IndexTerm="matching"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ Cloud"
+    IndexTerm="memoQ Cloud"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ Cloud subscription"
+    IndexTerm="memoQ Cloud subscription"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ content connector"
+    IndexTerm="memoQ content connector"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ main window"
+    IndexTerm="memoQ main window"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ online project"
+    IndexTerm="memoQ online project"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ online project settings"
+    IndexTerm="memoQ online project settings"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ project"
+    IndexTerm="memoQ project"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ project manager"
+    IndexTerm="memoQ project manager"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ server"
+    IndexTerm="memoQ server"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ server computer"
+    IndexTerm="memoQ server computer"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQ server Deployment Administration"
+    IndexTerm="memoQ server Deployment Administration"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="memoQWeb"
+    IndexTerm="memoQWeb"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="menu"
+    IndexTerm="menu"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Microsoft Word"
+    IndexTerm="Microsoft Word"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="model"
+    IndexTerm="model"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="MT profile"
+    IndexTerm="MT profile"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="MT settings"
+    IndexTerm="MT settings"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Muse"
+    IndexTerm="Muse"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Name/description box"
+    IndexTerm="Name/description box"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new auto-translation rule"
+    IndexTerm="new auto-translation rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new export path rule"
+    IndexTerm="new export path rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new LQA model"
+    IndexTerm="new LQA model"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new MT settings window"
+    IndexTerm="new MT settings window"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new non-translatable list"
+    IndexTerm="new non-translatable list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new online project"
+    IndexTerm="new online project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new project"
+    IndexTerm="new project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new project from template"
+    IndexTerm="new project from template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new QA option set"
+    IndexTerm="new QA option set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new segmentation rule"
+    IndexTerm="new segmentation rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new segmentation rule set"
+    IndexTerm="new segmentation rule set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new term"
+    IndexTerm="new term"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new term base"
+    IndexTerm="new term base"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="new translation memory"
+    IndexTerm="new translation memory"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="non-translatable"
+    IndexTerm="non-translatable"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="non-translatable list"
+    IndexTerm="non-translatable list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="non-translatable lists"
+    IndexTerm="non-translatable lists"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="numbers"
+    IndexTerm="numbers"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="online project"
+    IndexTerm="online project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="online project settings"
+    IndexTerm="online project settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="open a local project"
+    IndexTerm="open a local project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="open several online projects"
+    IndexTerm="open several online projects"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="order"
+    IndexTerm="order"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Overview"
+    IndexTerm="Overview"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="package"
+    IndexTerm="package"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="packages"
+    IndexTerm="packages"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="path"
+    IndexTerm="path"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="PDF"
+    IndexTerm="PDF"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="People"
+    IndexTerm="People"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="permission"
+    IndexTerm="permission"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="permissions"
+    IndexTerm="permissions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="post-translation analysis"
+    IndexTerm="post-translation analysis"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Pre-translate"
+    IndexTerm="Pre-translate"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="pre-translation"
+    IndexTerm="pre-translation"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="preview"
+    IndexTerm="preview"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="program"
+    IndexTerm="program"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="progress"
+    IndexTerm="progress"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project"
+    IndexTerm="project"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project from a template"
+    IndexTerm="project from a template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project from template"
+    IndexTerm="project from template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Project home"
+    IndexTerm="Project home"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="project management Dashboard"
+    IndexTerm="project management Dashboard"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project manager"
+    IndexTerm="project manager"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project manager edition"
+    IndexTerm="project manager edition"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project name"
+    IndexTerm="project name"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Project ribbon"
+    IndexTerm="Project ribbon"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="project template"
+    IndexTerm="project template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="project templates"
+    IndexTerm="project templates"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="properties"
+    IndexTerm="properties"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="publish"
+    IndexTerm="publish"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="QA option set"
+    IndexTerm="QA option set"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="QTerm"
+    IndexTerm="QTerm"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="QTerm term base"
+    IndexTerm="QTerm term base"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="QTerm term bases"
+    IndexTerm="QTerm term bases"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="quality assurance"
+    IndexTerm="quality assurance"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Quick access"
+    IndexTerm="Quick access"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Quick access toolbar"
+    IndexTerm="Quick access toolbar"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Recycle bin"
+    IndexTerm="Recycle bin"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="regex"
+    IndexTerm="regex"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="regular expressions"
+    IndexTerm="regular expressions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Remote Desktop"
+    IndexTerm="Remote Desktop"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="replace"
+    IndexTerm="replace"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="reports"
+    IndexTerm="reports"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Resolve errors and warnings"
+    IndexTerm="Resolve errors and warnings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Resource Console"
+    IndexTerm="Resource Console"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="resources"
+    IndexTerm="resources"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="resources in .mqres files"
+    IndexTerm="resources in .mqres files"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="restore"
+    IndexTerm="restore"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="results list"
+    IndexTerm="results list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="results pane"
+    IndexTerm="results pane"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="review"
+    IndexTerm="review"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Reviewer"
+    IndexTerm="Reviewer"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Reviewer 1"
+    IndexTerm="Reviewer 1"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Reviewer 2"
+    IndexTerm="Reviewer 2"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="ribbon"
+    IndexTerm="ribbon"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="role"
+    IndexTerm="role"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="search"
+    IndexTerm="search"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segment"
+    IndexTerm="segment"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segment status"
+    IndexTerm="segment status"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segmentation"
+    IndexTerm="segmentation"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segmentation rule"
+    IndexTerm="segmentation rule"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segmentation rule set"
+    IndexTerm="segmentation rule set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="segmentation rules"
+    IndexTerm="segmentation rules"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="serial number"
+    IndexTerm="serial number"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="server"
+    IndexTerm="server"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Server Administrator"
+    IndexTerm="Server Administrator"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="server computer"
+    IndexTerm="server computer"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Server URL"
+    IndexTerm="Server URL"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="service"
+    IndexTerm="service"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="services"
+    IndexTerm="services"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="settings pane"
+    IndexTerm="settings pane"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="shortcut"
+    IndexTerm="shortcut"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="shortcut key"
+    IndexTerm="shortcut key"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="shortcut set"
+    IndexTerm="shortcut set"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="shortcuts"
+    IndexTerm="shortcuts"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="sort"
+    IndexTerm="sort"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="source document"
+    IndexTerm="source document"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="source documents"
+    IndexTerm="source documents"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="source language"
+    IndexTerm="source language"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="source segment"
+    IndexTerm="source segment"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="source text"
+    IndexTerm="source text"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="SQL server"
+    IndexTerm="SQL server"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="statistics"
+    IndexTerm="statistics"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="status"
+    IndexTerm="status"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="stop word"
+    IndexTerm="stop word"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="stop word list"
+    IndexTerm="stop word list"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="stop word lists"
+    IndexTerm="stop word lists"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Subject"
+    IndexTerm="Subject"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Subject field"
+    IndexTerm="Subject field"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="subscription"
+    IndexTerm="subscription"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="subvendor"
+    IndexTerm="subvendor"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="subvendor group"
+    IndexTerm="subvendor group"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="suggestions"
+    IndexTerm="suggestions"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="tag"
+    IndexTerm="tag"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="tags"
+    IndexTerm="tags"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="target cell"
+    IndexTerm="target cell"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="target language"
+    IndexTerm="target language"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="target segment"
+    IndexTerm="target segment"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="target text"
+    IndexTerm="target text"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="template"
+    IndexTerm="template"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="templates"
+    IndexTerm="templates"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="term"
+    IndexTerm="term"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="term base"
+    IndexTerm="term base"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="term base editor"
+    IndexTerm="term base editor"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="term base entry"
+    IndexTerm="term base entry"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="term extraction"
+    IndexTerm="term extraction"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="terminology"
+    IndexTerm="terminology"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="terms"
+    IndexTerm="terms"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="TM settings"
+    IndexTerm="TM settings"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="TM settings profile"
+    IndexTerm="TM settings profile"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="TMX"
+    IndexTerm="TMX"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="tool"
+    IndexTerm="tool"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="tracked changes"
+    IndexTerm="tracked changes"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Trados"
+    IndexTerm="Trados"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="Trados 2007-like word counts"
+    IndexTerm="Trados 2007-like word counts"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation editor"
+    IndexTerm="translation editor"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation memories pane"
+    IndexTerm="translation memories pane"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation memory"
+    IndexTerm="translation memory"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation memory editor"
+    IndexTerm="translation memory editor"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation results"
+    IndexTerm="translation results"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translation settings"
+    IndexTerm="translation settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="Translations"
+    IndexTerm="Translations"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="translator"
+    IndexTerm="translator"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translator pro"
+    IndexTerm="translator pro"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="translators"
+    IndexTerm="translators"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="TransPDF"
+    IndexTerm="TransPDF"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="update"
+    IndexTerm="update"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="URL"
+    IndexTerm="URL"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="user account"
+    IndexTerm="user account"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="view"
+    IndexTerm="view"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="warnings"
+    IndexTerm="warnings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="web browser"
+    IndexTerm="web browser"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="web search"
+    IndexTerm="web search"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="web search settings"
+    IndexTerm="web search settings"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="wizard"
+    IndexTerm="wizard"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="word count"
+    IndexTerm="word count"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="word counts"
+    IndexTerm="word counts"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="words"
+    IndexTerm="words"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="workflow"
+    IndexTerm="workflow"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="working on a document"
+    IndexTerm="working on a document"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="working translation memory"
+    IndexTerm="working translation memory"
+    IgnoreCase="True"></AutoIndex>
+
+<AutoIndex
+    Phrase="XLIFF"
+    IndexTerm="XLIFF"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="XML"
+    IndexTerm="XML"
+    IgnoreCase="False"></AutoIndex>
+
+<AutoIndex
+    Phrase="XML file"
+    IndexTerm="XML file"
+    IgnoreCase="False"></AutoIndex>
+</CatapultAutoIndexSet>
