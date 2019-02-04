@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="MadCap HTML5 Target"
+  Comment="Top Nav HTML5"
   Type="WebHelp2"
   Destinations=""
   MoveOutputContentToRoot="true"
@@ -22,7 +22,7 @@
   UseCustomTopicFileExtension="false"
   CustomTopicFileExtension="aspx"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
-  MasterToc="/Project/TOCs/Test.fltoc"
+  MasterToc="/Project/TOCs/Master.fltoc"
   SearchFilterSet="/Project/Advanced/SFS_Test.flsfs"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   ExcludeUnreferencedContent="true">

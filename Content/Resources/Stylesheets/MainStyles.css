@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 /*===========================================================================================================================================================
 
@@ -254,6 +254,11 @@ ol ol
 	list-style-type: lower-alpha;
 }
 
+a.Popup
+{
+	
+}
+
 /*===========================================================================================================================================================
 Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
 [@media tablet] declares styles that will apply when the screen is in tablet view
@@ -323,13 +328,14 @@ img.large
 {
 	font-weight: bold;
 	margin-right: .25in;
-	text-decoration: none !important; 
+	text-decoration: none !important;
 }
 
 /* Thumbnail Popup */
- 
+
 .MCPopupContainer
 {
-position: absolute;
-left: 25% !important;
+	position: absolute;
+	left: 25% !important;
 }
+
