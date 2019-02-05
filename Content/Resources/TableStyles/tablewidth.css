@@ -31,6 +31,7 @@ mcTableColumnStyle
 	id: 4;
 	name: Column2;
 	size: 40%;
+	cell-content-style-tag: p;
 }
 
 mcTableHeadStyle
@@ -46,6 +47,7 @@ mcTableBodyStyle
 	name: Body1;
 	id: 1;
 	vertical-align: middle;
+	cell-content-style-tag: p;
 }
 
 mcTableFootStyle

@@ -339,3 +339,13 @@ img.large
 	left: 25% !important;
 }
 
+p.TableRow
+{
+	font-style: italic;
+}
+
+p.TableCol
+{
+	font-weight: bold;
+}
+
